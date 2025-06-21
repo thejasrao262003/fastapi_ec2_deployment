@@ -1,4 +1,4 @@
-from models import Product
+from models.product_model import Product
 
 # Simulated in-memory storage
 product_db = {}

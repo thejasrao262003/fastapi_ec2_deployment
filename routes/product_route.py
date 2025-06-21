@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from models import Product
+from models.product_model import Product
 from services.product_service import create_product, get_product_by_id
 
 router = APIRouter()
